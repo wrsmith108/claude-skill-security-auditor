@@ -1,0 +1,34 @@
+{
+  "name": "@wrsmith108/claude-skill-security-auditor",
+  "version": "1.0.0",
+  "description": "Claude Code skill for running structured security audits with actionable remediation plans",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "security",
+    "npm-audit",
+    "vulnerability",
+    "cve",
+    "developer-tools",
+    "devops"
+  ],
+  "author": "wrsmith108",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrsmith108/claude-skill-security-auditor.git"
+  },
+  "main": "scripts/index.ts",
+  "scripts": {
+    "audit": "npx tsx scripts/index.ts",
+    "audit:json": "npx tsx scripts/index.ts --json",
+    "audit:ci": "npx tsx scripts/index.ts --fail-on high"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
