@@ -14,7 +14,7 @@ git clone https://github.com/wrsmith108/claude-skill-security-auditor.git ~/.cla
 ### Standalone Usage
 
 ```bash
-npx tsx ~/.claude/skills/security-auditor/scripts/index.ts [options]
+npx tsx scripts/index.ts [options]
 ```
 
 ## Trigger Phrases
@@ -110,7 +110,7 @@ The skill generates a markdown report with:
 
 ```yaml
 - name: Security Audit
-  run: npx tsx ~/.claude/skills/security-auditor/scripts/index.ts --fail-on high
+  run: npx tsx scripts/index.ts --fail-on high
 ```
 
 ## Requirements
