@@ -48,7 +48,7 @@ function printHelp(): void {
 Security Auditor - Run structured security audits with actionable remediation plans
 
 Usage:
-  npx tsx ~/.claude/skills/security-auditor/scripts/index.ts [options]
+  npx tsx scripts/index.ts [options]
 
 Options:
   --json              Output in JSON format
@@ -59,16 +59,16 @@ Options:
 
 Examples:
   # Basic audit with markdown report
-  npx tsx ~/.claude/skills/security-auditor/scripts/index.ts
+  npx tsx scripts/index.ts
 
   # JSON output for CI integration
-  npx tsx ~/.claude/skills/security-auditor/scripts/index.ts --json
+  npx tsx scripts/index.ts --json
 
   # Fail CI on high or critical vulnerabilities
-  npx tsx ~/.claude/skills/security-auditor/scripts/index.ts --fail-on high
+  npx tsx scripts/index.ts --fail-on high
 
   # Audit a specific project
-  npx tsx ~/.claude/skills/security-auditor/scripts/index.ts --cwd /path/to/project
+  npx tsx scripts/index.ts --cwd /path/to/project
 
 Exit Codes:
   0 - Success (no vulnerabilities above threshold)
