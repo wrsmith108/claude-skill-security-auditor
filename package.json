@@ -1,6 +1,6 @@
 {
   "name": "@wrsmith108/claude-skill-security-auditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code skill for running structured security audits with actionable remediation plans",
   "keywords": [
     "claude-code",

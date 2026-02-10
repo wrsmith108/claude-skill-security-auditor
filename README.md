@@ -119,6 +119,12 @@ The skill generates a markdown report with:
 - Valid `package.json` in target directory
 - Optional: `package-lock.json` for accurate audit
 
+## Changelog
+
+### 1.0.1 (2026-02-10)
+
+- **Fixed**: Replaced hardcoded `~/.claude/skills/` paths with relative paths for portability across different install locations
+
 ## License
 
 MIT
